@@ -1,5 +1,10 @@
 menuList=[]
 priceList=[]
+temp=[[10,10],[20,10]]
+print(temp)
+print(temp[1])
+temp.append([30,20])
+print(temp)
 def showBill():
     totalPrice = 0
     print("My food".center(17,"-"))
